@@ -23,6 +23,7 @@ public class OddEvenLinkedList {
 			isOdd = !isOdd;
 		}
 		oddTail.next = evenPre;
+		evenTail.next = null;
 		return oddPre;
 	}
 }
